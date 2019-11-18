@@ -16,6 +16,8 @@ Just call the `build_latex_report()` function as shown in the example `test_buil
 	outdocument_path = 'Report_Lorenz.tex'
 	build_latex_report( report_title, report_date, logo_path, outdocument_path, pictures_folder, dic_capt_figures, tables_folder, dic_capt_tables, keyname_order )
 
+All figures must be located on a folder `pictures_folder`, while all the tables must be text files located on `tables_folder`. Note that each table file can be easily created with the Pandas `.to_latex()` method and exporting the output string as a `.txt` file.
+
 `dic_capt_figures` and `dic_capt_tables` are dictionaries containing the name of each figure and table respectively as keys and their corresponding captions as values. `keyname_order` is just a list of the elements to put in the `.tex` file and their order. `outdocument_path` is the name of the output file to generate.
 
-Note that each table file can also be easily created with the pandas `.to_latex()` method.
+After generating the `.tex` file, run it on a LaTeX interpreter application to keep working on the document and build the output PDF.
