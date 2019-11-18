@@ -1,0 +1,5 @@
+\begin{tabular}{lll}
+\cline{1-3}
+\multicolumn{1}{|l|}{\textbf{a}} & \multicolumn{1}{l|}{\textbf{b}} & \multicolumn{1}{l|}{\textbf{c}} \\ \cline{1-3}
+\multicolumn{1}{|l|}{28}         & \multicolumn{1}{l|}{10}         & \multicolumn{1}{l|}{2.66}       \\ \cline{1-3}
+\end{tabular}
