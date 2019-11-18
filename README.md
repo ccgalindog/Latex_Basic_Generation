@@ -18,4 +18,4 @@ Just call the `build_latex_report()` function as shown in the example `test_buil
 
 `dic_capt_figures` and `dic_capt_tables` are dictionaries containing the name of each figure and table respectively as keys and their corresponding captions as values. `keyname_order` is just a list of the elements to put in the `.tex` file and their order. `outdocument_path` is the name of the output file to generate.
 
-Note that each table file can be easily created from pandas `.to_latex()` method.
+Note that each table file can also be easily created with the pandas `.to_latex()` method.
